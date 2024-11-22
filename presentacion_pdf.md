@@ -1,9 +1,3 @@
----
-theme: theme.json
-date: ""
-author: Joaquín Velazquez - 105980
-paging: Página %d de %d
----
 # Trabajo Práctico Teórico
 
 ```text
@@ -37,7 +31,7 @@ paging: Página %d de %d
 
 ---
 
-# 🔐 Servicios que ofrece 
+# Servicios que ofrece 
 
 * `Confidencialidad`
 * `Autenticación de origen`
@@ -47,7 +41,7 @@ paging: Página %d de %d
 
 ---
 
-# 🔌 IPSec
+# IPSec
 
  - Capa de red
  - Puerto 500 
@@ -62,13 +56,14 @@ paging: Página %d de %d
 
 [1] RFC 4302 - https://datatracker.ietf.org/doc/html/rfc4302
 
+
 [2] RFC 4301, Sección 3.2 - https://datatracker.ietf.org/doc/html/rfc4301#section-3.2
 
 ---
 
-# 🚏 Modos
+# Modos
 
-## 🚚 Modo Transporte
+## Modo Transporte
 ```text
 ┌Paquete─ESP─────────────────────────────┐
 │         ┌Paquete─ESP──────────────────┐│
@@ -81,7 +76,7 @@ paging: Página %d de %d
 └────────────────────────────────────────┘
 ```
 
-## 🚆 Modo Túnel
+## Modo Túnel
 ```text
 ┌Datagrama─IP─Nuevo────────────────────────────────┐
 │        ┌Paquete─ESP─────────────────────────────┐│
@@ -98,7 +93,7 @@ paging: Página %d de %d
 
 ---
 
-# 🤖 Algoritmos
+# Algoritmos
 
 ##### Integridad
 
@@ -108,7 +103,7 @@ paging: Página %d de %d
 
 ---
 
-# 📦 Formato del paquete ESP
+# Formato del paquete ESP
 
 ```text
      0                   1                   2                   3
